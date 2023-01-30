@@ -1,4 +1,4 @@
-require 'pry'
+
 
 # this method returns an array of hashes, which we'll use in the other methods
 def spicy_foods 
@@ -12,7 +12,8 @@ end
 # given an array of spicy foods, **return an array of strings**
 # with the names of each spicy food
 def get_names(spicy_foods)
-  # your code here
+  name = spicy_foods[:name]
+  puts name
 end
 
 # given an array of spicy foods, **return an array of hashes** 
@@ -54,4 +55,5 @@ end
 # the average heat level of all the spicy foods in the array
 def average_heat_level(spicy_foods)
   # your code here
-end
+end 
+
